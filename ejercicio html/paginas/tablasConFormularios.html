@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y formularios</title>
+
+</head>
+<body>
+    <nav align="center">
+        <h1>TABLAS CON FORMULARIOS</h1>
+        <b>1. Factura</b>
+    </nav>
+    <br>
+    <div align="center">
+        <form>
+            <table border="">
+                <tr bgColor="pink">
+                    <th rowspan="6" >SUPERMERCADOS <br>"LA VENDEDORA"</th>
+
+                </tr>
+                    <td colspan="4">
+                        
+                    </td>
+                    <td colspan="3" rowspan="1">
+                        <b>25/04/2011</b>
+                    </td>
+                
+                <tr align="center">
+                    <th colspan="5"> N° Fra: 245600 </th>
+                </tr>
+
+                <td colspan="2">
+                    Cliente: <td colspan="3"><input type="text" name="CLIENTE" value="Francisco"></td>
+                </td>
+                <tr>
+                    <td colspan="2">
+                        RUC: <td colspan="3"><input type="number" name="RUC" value="564332456"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Direccion: <td colspan="3"><input type="text" name="direccon" value="Avenida guayabal"></td>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>CÓDIGO</th>
+                    <th>CANTIDAD</th>
+                    <th colspan="2">CONCEPTO</th>
+                    <th>PRECIO</th>
+                    <th>IMPORTE</th>
+                </tr>
+                <tr>
+                    <td rowspan=""><input type="text" name="codigo" value="A23"></td>
+                    <td><input type="text" name="cantidad" value="20"></td>
+                    <td colspan="2"><input type="text" name="concepto" value="LAPICES"></td>
+                    <td><input type="number" name="precio" value="25"></td>
+                    <td><input type="number" name="importe" value="500"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="codigo" value="A45"></td>
+                    <td><input type="text" name="cantidad" value="100"></td>
+                    <td colspan="2"><input type="text" name="concepto" value="BORRADORES"></td>
+                    <td><input type="number" name="precio" value="10"></td>
+                    <td><input type="number" name="importe" value="1.000"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="codigo"></td>
+                    <td><input type="number" name="cantidad"></td>
+                    <td colspan="2"><input type="text" name="concepto"></td>
+                    <td><input type="number" name="precio"></td>
+                    <td><input type="number" name="importe"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="codigo"></td>
+                    <td><input type="number" name="cantidad"></td>
+                    <td colspan="2"><input type="text" name="concepto"></td>
+                    <td><input type="number" name="PRECIO"></td>
+                    <td><input type="number" name="importe"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" name="codigo"></td>
+                    <td><input type="number" name="cantidad"></td>
+                    <td colspan="2"><input type="text" name="concepto"></td>
+                    <td><input type="number" name="PRECIO"></td>
+                    <td><input type="number" name="importe"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="codigo"></td>
+                    <td><input type="number" name="cantidad"></td>
+                    <td colspan="2"><input type="text" name="concepto"></td>
+                    <td><input type="number" name="PRECIO"></td>
+                    <td><input type="number" name="importe"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4" rowspan="5"></td>
+                </tr>
+                <tr>
+                    <th>Importe</th>
+                    <td><input type="number" name="importe" value="1.500"></td>
+                </tr>
+                <tr>
+                    <th>Descuento</th>
+                    <td><input type="number" name="descuento" value="75"></td>
+                </tr>
+                <tr>
+                    <th>Base imponible</th>
+                    <td><input type="number" name="baseImponible" value="1.425"></td>
+                </tr>
+                <tr>
+                    <th>I.V.A.</th>
+                    <td><input type="number" name="iva" value="228"></td>
+                </tr>
+                <tr>
+                    <td colspan="5" ><b>TOTAL FACTURA</b></td>
+                    <td><input type="number" name="total" value="1.653"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+<br><br><br>
+
+<!--tabla 2-->
+
+<nav align="center">
+    <b>2. Formulario personal</b>
+</nav>
+<br>
+    <div align="center">
+        <form action="">
+            <table border="">
+                <tr bgColor="cyan">
+                    <th colspan="8" >Machote de Inventaro de <br>Personal</th>
+
+                </tr>
+                <tr>
+                    <th colspan="8">Inventario de personal</th>
+                </tr>
+                    <td bgcolor="cyan" >
+                    NOMBRE: <td><input type="text" name="nombre" ></td>
+                    </td>
+                <tr>
+                     <td bgcolor="cyan" >
+                            DIRECCIÓN: <td colspan="7"><input type="text" name="direccion" ></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="cyan" >
+                        TÉLEFONO: <td colspan="3"><input type="number" name="telefono" ></td>
+                        <td><input type="text" name="telefono"></td>
+                        <th>ESTADO CIVIL: <td colspan="2"><input type="text" name="estadoCivil"></td>
+                   </td>
+               </tr>
+
+                <tr>
+                    <td bgcolor="cyan" colspan="2">
+                           COMPAÑIA DE SEGUROS: <td colspan="3"><input type="text" name="direccion" ></td>
+                           <td><input type="text" name="seguros"></td>
+                           <td><input type="text" name="seguros"></td>
+                   </td>
+               </tr>
+               <tr>
+                    <td colspan="8"><br></td>
+               </tr>
+               <tr>
+                    <td bgcolor="cyan" colspan="3">
+                        ESTADO GENERAL DE SALUD: <td colspan="2"></td>
+                        <td colspan="2">Marca con una X la opción</td>
+                    </td>
+               </tr>
+               <tr>
+                    <td colspan="2">
+                        HEPATITIS: <td colspan=""><input type="text" name="HEPATITIS" ></td>
+                    </td>
+                    <td>
+                        GASTRITIS: <td><input type="text" name="HEPATITIS" ></td>
+                    </td>
+                    <td>
+                        ASMA: <td><input type="text" name="asma"></td>
+                    </td>
+               </tr>
+
+               <tr>
+                    <td colspan="2">
+                        ANEMIAS: <td colspan=""><input type="text" name="ANEMIAS" ></td>
+                    </td>
+                    <td>
+                        DIABETES: <td><input type="text" name="DIABETES" ></td>
+                    </td>
+                    <td>
+                        ALERGIAS: <td><input type="text" name="ALERGIAS"></td>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    HIPE. ARTERIAL: <td colspan=""><input type="text" name="ANEMIAS" ></td>
+                </td>
+                <td>
+                    HIPO ARRTERIAL: <td><input type="text" name="HIPOA" ></td>
+                </td>
+                <td>
+                    OTRO: <td><input type="text"></td>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    CELIACO: <td><input type="text" name="CELIACO" ></td>
+                </td>
+                <td>
+                    EPILEPSIA: <td><input type="text" name="EPILEPSIA" ></td>
+                </td>
+                <td>
+                    <td><input type="text"></td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="8"><br></td>
+           </tr>
+           <tr>
+                <td bgcolor="cyan" colspan="2">
+                    EXPERIENCIA LABORAL: <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    EMPRESA: <td><input type="text" name="empresa"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    NOMBRE DEL PUESTO: <td><input type="text" name="puesto"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    FUNCIONES DEL PUESTO: <td><input type="text" name="FUNCIONES"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="8"><br></td>
+            </tr>
+            <tr>
+                <td bgcolor="cyan" colspan="2">
+                    FORMACION ACADEMICA: <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    ESCOLARIDAD: <td><input type="text" name="ESCOLARIDAD"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    ESCUELA: <td><input type="text" name="ESCUELA"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    PROFESIÓN: <td><input type="text" name="PROFESIÓN"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="8"><br></td>
+            </tr>
+            <tr>
+                <td bgcolor="cyan" colspan="2">
+                    ESTUDIOS ADICIONALES: <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    ENTIDAD O ESCUELA: <td><input type="text" name="ENTIDAD"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    TÍTULO: <td><input type="text" name="TÍTULO"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="8"><br></td>
+            </tr>
+            <tr>
+                <td bgcolor="cyan" colspan="2">
+                    INFORMACION ADICIONAL: <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    PUESTO: <td><input type="text" name="PUESTO"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    N°EMPLEADO: <td><input type="text" name="Npuesto"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    N°AÑOS EN EL EMPLEO: <td><input type="text" name="AÑOSEMPLEADO"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    PUESTOS ANTERIORES: <td><input type="text" name="PUESTOSANTERIORES"></td>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    COMENTARIOS: <td><input type="text" name="COMENTARIOS"></td>
+             </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            
+            </table>
+        </form>
+    </div>
+<br><br>
+<nav align="center">
+    <a href="/ejercicio html/inicio.html">INICIO</a>
+</nav>
+<br><br><br><br><br><br><br>
+
+</body>
+</html>
