@@ -1,0 +1,112 @@
+/* SEGUNDO PUNTO
+/* ETIQUETA */
+/* EJEMPLO 1 */
+h2 {
+    text-align: center;
+}
+/* EJEMPLO 2 */
+p {
+    color: blue;
+}
+
+
+/* ID */
+/* EJEMPLO 1 */
+#main {
+    background-color: yellow;
+}
+/* EJEMPLO 2 */
+#footer {
+    font-size: 14px;
+}
+
+
+/* CLASE */
+/* EJEMPLO 1 */
+.highlight {
+    background-color: yellow;
+}
+/* EJEMPLO 2 */
+.btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+} 
+
+
+/* COMA */
+/* EJEMLO 1 */
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* EJEMPLO 2 */
+.header {
+    background-color: #f1f1f1;
+}
+
+
+/* ATRIBUTOS */
+/* EJEMPLO 1 */
+[type="text"] {
+    border: 2px solid black;
+}
+/* EJEMPLO 2 */
+[href^="https"] {
+    color: green;
+}
+
+
+/* UNIVERSAL (*) */
+/* EJEMPLO 1 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* EJEMPLO 2 */
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+/* DESCENDIENTE (ESPACIO) */
+/* EJEMPLO 1 */
+div p {
+    color: red;
+}
+/* EJEMPLO 2 */
+ul li {
+    font-weight: bold;
+}
+
+
+/* HIJO DIRECTO (>) */
+/* EJEMPLO 1 */
+ul > li {
+    list-style-type: none ;
+}
+/* EJEMPLO 2 */
+div > p {
+    color: blue;
+}
+
+
+/* HERMANO ADYACENTE (+) */
+/* EJEMPLO 1 */
+h2 + p {
+    margin-top: 10px;
+}
+/* EJEMPLO 2 */
+.title + .description {
+    font-style: italic;
+}
+
+
+/* HERMANO GENERAL (~) */
+/* EJEMPLO 1 */
+h2 ~ p {
+    color: green;
+}
+/* EJEMPLO 2 */
+.box ~ .text {
+    background-color: lightgray;
+}

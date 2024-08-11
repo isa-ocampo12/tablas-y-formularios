@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller CSS</title>
+    <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+    <!-- ETIQUETA -->
+    <!-- EJEMPLO 1 -->
+    <h2>Título centrado</h2>
+    <p>Este párrafo azul.</p>
+    <!-- EJEMPLO 2 -->
+    <p>Este es un párrafo azul.</p>
+    <p>Otro párrafo que también es azul.</p>
+
+    <!-- ID -->
+    <!-- EJEMPLO 1 -->
+    <div id="main">Este div tiene  fondo amarillo.</div>
+    <div>Este div no tiene fondo amarillo.</div>
+    <!-- EJEMPLO 2 -->
+    <p id="footer">Este texto tiene un tamaño de fuente de 14px.</p>
+    <p>Este texto no tiene cambios en el tamaño de la fuente.</p>
+
+    <!-- CLASE -->
+     <!-- EJEMPLO 1 -->
+     <p class="highlight">Este párrafo tiene un fondo amarillo.</p>
+     <p>Este párrafo no está afectado.</p>
+     <!-- EJEMPLO 2 -->
+     <button class="btn">Botón Azul</button>
+     <button>Botón sin estilo</button>
+
+     <!-- (COMA) -->
+      <!-- EJEMPLO 1 -->
+      <h1>Nivel 1</h1>
+      <h2>Nivel 2</h2>
+      <h3>Nivel 3</h3>
+    <!-- EJEMPLO 2 -->
+    <div class="header">Encabezado con fondo gris claro</div>
+
+    <!-- ATRIBUTOS -->
+     <!-- EJEMPLO 1 -->
+     <input type="text" placeholder="Texto aquí">
+     <input type="password" placeholder="Contraseña aquí"><br>
+     <!-- EJEMPLO 2 -->
+     <a href="https://www.example.com">Enlace seguro</a>
+     <a href="http://www.example.com">Enlace no seguro</a>
+
+     <!-- UNIVERSAL (*) -->
+      <!-- EJEMPLO 1 -->
+      <h1>Título</h1>
+      <p>Párrafo</p>
+      <!-- EJEMPLO 2 -->
+      <h1>Título</h1>
+      <p>Párrafo</p>
+
+    <!-- DESCENDIENTE (ESPACIO) -->
+     <!-- EJEMPLO 1  -->
+     <div>
+        <p>Este párrafo dentro del div es rojo.</p>
+     </div>
+    <!-- EJEMPLO 2 -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+
+    <!-- HIJO DIRECTO (>) -->
+     <!-- EJEMPLO 1 -->
+     <ul>
+        <li>Item 1</li>
+        <li>
+          Item 2
+          <ul>
+            <li>Subitem 1</li>
+          </ul>
+        </li>
+      </ul>
+      <!-- EJEMPLO 2 -->
+      <div>
+        <p>Este párrafo es azul.</p>
+        <div>
+          <p>Este párrafo no es azul.</p>
+        </div>
+      </div>
+
+      <!-- HERMANO ADYACENTE (+)  -->
+      <!-- EJEMPLO 1 -->
+      <p>Este párrafo es h2.</p>
+      <p>aplicara una margen de 10px porque sigue despues del primer h2.</p>
+      <!-- EJEMPLO 2 -->
+      <div class="title">Título</div>
+      <div class="description">Descripción en cursiva.</div>
+
+    <!-- HERMANO GENERAL (~) -->
+      <!-- EJEMPLO 1 -->
+      <p>Este párrafo es verde porque es un hermano de h2.</p>
+      <div>Este div no se ve afectado.</div>
+      <p>Este párrafo también es verde.</p>
+      <!-- EJEMPLO 2 -->
+      <div class="box">Caja</div>
+      <p class="text">Este texto tiene un fondo gris claro.</p>
+      <div class="text">Este div también tiene un fondo gris claro.</div>
+      <div>Caja sin clase.</div><br><br><br><br>
+
+      <nav align="center">
+        <a href="/ejercicio html/paginas/a.html">Punto A</a><br>
+        <a href="/ejercicio html/paginas/b.html">Punto B</a><br>
+        <a href="/ejercicio html/paginas/c.html">Punto C</a><br>
+        <a href="/ejercicio html/paginas/d.html">Punto D</a><br>
+        <a href="/ejercicio html/paginas/e.html">Punto E</a><br><br>
+        <a href="/ejercicio html/inicio.html">INICIO</a>
+      </nav>
+      <br><br><br><br><br><br><br>
+</body>
+</html>
